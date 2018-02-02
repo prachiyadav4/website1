@@ -1,30 +1,27 @@
-## Welcome to GitHub Pages
+<form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
 
-You can use the [editor on GitHub](https://github.com/prachiyadav4/website1/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+    <label><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
 
-### Markdown
+    <label><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
-prachi
+    <label>
+      <input type="checkbox" checked="checked" style="margin-bottom:15px"> Remember me
+    </label>
 
-Markdown is a lightweight and easy-to-use syntax for styl
-- List
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/prachiyadav4/website1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
