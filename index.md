@@ -21,7 +21,7 @@
 
     <div class="clearfix">
       <button type="button" class="cancelbtn">Cancel</button><br>
-      <button type="submit" class="signupbtn">Sign Up</button>
+     <br><button type="submit" class="signupbtn">Sign Up</button>
     </div>
   </div>
 </form>
