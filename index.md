@@ -2,8 +2,6 @@
   <div class="container">
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
-    <hr>
-    background-color: lightblue;
     <label><b>Email:: </b></label>
     <input type="text" placeholder="Enter Email" name="email" required>
 
