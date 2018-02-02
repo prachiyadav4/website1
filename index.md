@@ -5,9 +5,9 @@
     <hr>
 
     <label><b>Email</b></label><br>
-    <input type="text" placeholder="Enter Email" name="email" required>
+    <br><input type="text" placeholder="Enter Email" name="email" required>
 
-    <label><b>Password</b></label>
+    <br><label><b>Password</b></label><br>
     <input type="password" placeholder="Enter Password" name="psw" required>
 
     <label><b>Repeat Password</b></label><br>
