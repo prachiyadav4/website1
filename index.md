@@ -10,7 +10,7 @@
     <br><label><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required>
 
-    <label><b>Repeat Password</b></label>
+    <br><label><b>Repeat Password</b></label>
     <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
 
     <label>
